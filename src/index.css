@@ -1,13 +1,46 @@
-body {
+/* estilos utilizados en la interfaz */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+  background:linear-gradient(rgba(156, 156, 158, 0.739),rgba(112, 112, 112, 0.7)),url("https://s2.thingpic.com/images/oG/DQr1bmz3rNE6jKrv3RgyUDQX.jpeg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App{
+  width: 70%;
+  background: white;
+  border-radius: 20px;
+  padding: 1rem;
+  margin: auto;
+  margin-top: 5%;
+
+}
+
+.obtencionDatos,.muestraDatos,.inicio{
+  width: 100%;
+}
+form{
+  display: flex;
+  flex-wrap: wrap;
+}
+.inputsAccesorios{
+  margin-right: 10px;
+  margin-bottom: 25px;
+}
+input{
+  width: 100px;
+  height: 20px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  text-align: center;
+  border-bottom: 2px solid #868686;
+}
+
+.velocidadLongitudDiametro{
+  margin-right: 40px;
 }
